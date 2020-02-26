@@ -16,11 +16,11 @@ public class Lab5Test {
     * class participation, reading surveys, debugging table
     */
     public void testGetWeightedAverage1() {
-        double[] weights = {40.0, 25.0, 15.0, 5.0, 5.0, 5.0};
+        double[] weights = {45.0, 25.0, 15.0, 5.0, 5.0, 5.0};
         double[] values = {100, 60, 98, 50, 20, 100};
-        double expResult = 82.3;
+        double expResult = 83.2;
         double result = Lab5.getWeightedAverage(weights, values);
-        assertEquals(expResult, result, 0.1);
+        assertEquals(expResult, result, 0.001);
     }
     
     /**
